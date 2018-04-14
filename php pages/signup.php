@@ -1,3 +1,9 @@
+<?php 
+
+function _signup()
+{
+	global $PATH,$id,$na1,$naB1,$naL1,$Bdate,$Bmonth,$Byear,$flag_date,$email,$flag_SSN,$socialSecurityNumber;
+?>
 <section class="section form_input">
   <div class="container">
 	<div class="row">
@@ -262,3 +268,8 @@
 	</div>
   </div>
 </section>
+<?php 
+	
+}
+
+?>

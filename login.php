@@ -42,7 +42,8 @@
 		/* end database login */
 	}//end if post
 
-    include("php pages/header.php");
+	include("php pages/header.php");
+	_header();
 	
 ?>
 <section class="section form_signin">
@@ -129,5 +130,6 @@
     </div>
 </section>
 <?php
-    include("php pages/footer.php");
+	include("php pages/footer.php");
+	_footer();
 ?>

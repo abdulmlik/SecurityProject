@@ -9,6 +9,7 @@
 	}
 
 	include("php pages/header.php");
+	_header();
 	
 ?>
 <section class="section home">
@@ -44,5 +45,6 @@
 </section>
 
 <?php
-    include("php pages/footer.php");
+	include ("php pages/footer.php");
+	_footer();
 ?>

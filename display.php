@@ -19,7 +19,8 @@
 	$row = $stmt->fetch(PDO::FETCH_ASSOC);
 
 	$conn = null;
-	include("php pages/header.php");
+	include ("php pages/header.php");
+	_header();
 ?>
 <section class="section display_data" dir="rtl">
   <div class="container">
@@ -136,5 +137,6 @@
   </div>
 </section>
 <?php
-	include("php pages/footer.php");
+	include ("php pages/footer.php");
+	_footer();
 ?>

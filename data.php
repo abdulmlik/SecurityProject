@@ -17,7 +17,7 @@
 	$nameB	= "";		//اسم الاب
 	$naB1	= ["",""];	//خاصة بحفظ القيمة
 
-	$nameL	= "";		//اسم العئلة
+	$nameL	= "";		//اسم العائلة
 	$naL1	= ["",""];	//خاصة بحفظ القيمة
 
 	$Bdate	= 1;		//اليوم
@@ -166,14 +166,18 @@
 		}// end if filter
 	}// end if post
 
-    include("php pages/header.php");
+	include ("php pages/header.php");
+	_header();
     if($flag)
 	{
-		include("php pages/show.php");
+		include ("php pages/show.php");
+		_show();
 	}// end if 
     else {
-	    include("php pages/signup.php");//
+		include ("php pages/signup.php");//
+		_signup();
     }//end else
 
-    include("php pages/footer.php");
+	include ("php pages/footer.php");
+	_footer();
 ?>

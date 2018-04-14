@@ -1,3 +1,9 @@
+<?php 
+
+function _footer()
+{
+	global $PATH;
+?>
 		<footer class="_footer bg-info">
 			<div class="copyright text-center">
 				Copyright &copy; 2017-<?= date('Y') ?> <span></span> .Inc
@@ -19,3 +25,8 @@
 		-->
     </body>
 </html>
+<?php 
+
+}
+
+?>

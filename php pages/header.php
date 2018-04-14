@@ -9,6 +9,11 @@
 	}
 
 	$PATH = "http://localhost/SecurityProject cs340/";
+	
+
+	function _header()
+	{
+		global $PATH,$title;
 ?>
 <!doctype html>
 <html lang="en">
@@ -37,3 +42,9 @@
 			  <a class="navbar-brand text-capitalize" href="<?= $PATH ?>index.php">security project CS340</a>
 		  </div>
 	  </nav>
+
+<?php
+	
+	}
+
+?>

@@ -1,3 +1,9 @@
+<?php 
+
+function _show()
+{
+	global $PATH,$id,$name,$nameB,$nameL,$date,$email,$socialSecurityNumber,$passWord;
+?>
 <section class="section show_input" dir="rtl">
   <div class="container">
 	<div class="row">
@@ -64,3 +70,8 @@
    </div>
   </div>
 </section>
+<?php 
+
+}
+
+?>
